@@ -28,6 +28,11 @@ body{
     text: var(--light);
 }
 
+.bg-danger-x{
+    background: var(--danger);
+    
+}
+
 .text-danger-x {
    color: var(--danger);
 }
