@@ -10,9 +10,33 @@
     <link rel="stylesheet" href="/Css/login.css">
   </head>
   <body>
+    <!-- Cabecera -->
     <!-- navbar -->
-
+    <nav class="navbar sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand"data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><img src="img/LogoScout.png" alt="Scouts" style="height: 5rem;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
     <!-- fin navbar -->
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start text-bg-light" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          <h1 class="p-3 fs-2 text-center text-seconday fw-bold mb-4">Scouts Centinelas 113</h1>
+          <div class="text-center mb-2"><a class="btn fw-bold fs-5 text-light mb-2 mt-4 w-100" style="background-color: #c50d0d;" href="login.html">Ingresa</a></div>
+          <div class="text-center mt-2"><a class="btn btn-success fw-bold fs-5 mt-2 w-100"" href="https://scoutscentinelas113cali.org/">Volver al Inicio</a></div>
+        </div>
+      </div>
+      <p class="copyright text-center">&copy;Genesis</p>
+    </div>
+    <!-- fin offcanvas -->
+    <!-- Fin cabecera -->
     <section class="mt-7">
         <div class="container my-5">
             <!-- <h1 class="text-center mb-4"></h1> -->
@@ -25,7 +49,7 @@
                 <!-- Acordeon 1 -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button fw-bold text-danger-x" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="accordion-button fw-bold text-danger-x fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       Datos Personales
                     </button>
                   </h2>
@@ -167,8 +191,8 @@
                 <!-- Acordeon 2 -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed fw-bold text-danger-x" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Datos acudiente
+                    <button class="accordion-button collapsed fw-bold text-danger-x fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Datos Acudiente
                     </button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -192,12 +216,14 @@
                             </div>
                         </div>
                       </form>
-                        <div class="text-center mb-4 mt-4">
-                            <button type="submit" class="btn btn-danger-x text-light fw-bold">Enviar Formulario</button>
-                        </div>
+                        
                     </div>
                   </div>
                 </div>
+                  <div class="text-center mb-4 mt-4">
+                    <button type="submit" class="btn btn-danger-x text-light fw-bold w-50 fs-5">Enviar Formulario</button>
+                  </div>
+               <!-- Fin acordeon 2 -->
               </div>
           </div>
     </section>

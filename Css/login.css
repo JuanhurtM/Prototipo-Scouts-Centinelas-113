@@ -9,6 +9,11 @@ body{
 
 }
 
+.fixed {
+    position: fixed;
+    top: auto;
+}
+
 .img-1{
     background-image: url('../Img/img1.jpg');
     background-size: cover;
